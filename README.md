@@ -1,35 +1,24 @@
-📊 Sales & Customer Analytics with dbt + DuckDB
-🚀 Project Overview
+## 📊 SALES & CUSTOMER ANALYTICS WITH DBT + DUCKDB
 
-This project demonstrates how to build a modern data analytics pipeline using:
+## 🚀 PROJECT OVERVIEW
+This project demonstrates how to build a modern **data analytics pipeline** using:
 
-dlt
- → extract & load data from public APIs
+- **dlt** → extract & load data from public APIs  
+- **DuckDB** → lightweight analytical database  
+- **dbt** → transform and model raw data into analytics-ready datasets  
 
-DuckDB
- → lightweight analytical database
+We use the **Platzi Fake Store API** as our data source, loading entities like:  
+- Users  
+- Products  
+- Categories  
 
-dbt
- → transform and model raw data into analytics-ready datasets
+Optionally, synthetic orders/carts can be generated for practice.
 
-We use the Platzi Fake Store API as our data source, loading entities like:
+---
 
-Users
-
-Products
-
-Categories
-
-and (optionally) generating synthetic orders/carts for analytics practice.
-
-🛠️ Tech Stack
-
-Python + dlt → data ingestion from APIs
-
-DuckDB → local OLAP database (data warehouse-in-a-file)
-
-dbt-duckdb → transformations, staging, marts
-
-VSCode dbt Power User extension → IDE support
-
-GitHub → version control, collaboration
+## 🛠️ TECH STACK
+- Python + dlt → data ingestion from APIs  
+- DuckDB → local OLAP database (data warehouse-in-a-file)  
+- dbt-duckdb → transformations, staging, marts  
+- VSCode dbt Power User extension → IDE support  
+- GitHub → version control, collaboration  
