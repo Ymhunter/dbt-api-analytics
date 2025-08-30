@@ -1,0 +1,7 @@
+sources:
+  - name: platzi_api
+    schema: staging
+    tables:
+      - name: users
+      - name: products
+      - name: categories
