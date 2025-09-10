@@ -4,8 +4,8 @@ with users as (
 )
 
 select
-{{ dbt_utils.surrogate_key(['id', 'name', 'email', 'role']) }}
-    id,                                                   
+{{ dbt_utils.surrogate_key(['user_id', 'name', 'email', 'role']) }}
+    user_id,                                                   
     name,
     email,
     role
